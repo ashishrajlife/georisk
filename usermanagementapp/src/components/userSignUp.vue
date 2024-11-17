@@ -137,16 +137,10 @@ input[type="password"] {
   background-color: #fff;
   transition: all 0.3s ease;
 }
-
-input:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
-}
-
 .sign-up-button {
   padding: 12px 0;
   font-size: 1rem;
-  background-color: #007bff;
+  background-color: #6c5ce7;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -154,21 +148,18 @@ input:focus {
   transition: background-color 0.3s;
 }
 
-.sign-up-button:hover {
-  background-color: #0056b3;
+button:hover {
+  background-color: #4b3cb1;
 }
-
 .login-link {
   margin-top: 20px;
   font-size: 0.9rem;
   color: white;
 }
-
 .login-link a {
   color: #007bff;
   text-decoration: none;
 }
-
 .login-link a:hover {
   text-decoration: underline;
 }
