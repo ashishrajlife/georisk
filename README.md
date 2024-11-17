@@ -29,29 +29,26 @@ open command promt in global path using windows search (i.e path should seems li
 
 ### setp-3 (Start the json server)
 
-Go to the project folder db in file explorer included in the project root that is cloned and open command promt by clicking on address bar of folder and open command promt
-and give command  
+Go to the folder db using file explorer in the project root that is cloned and open command promt by clicking on address bar of folder and give command  
 `cmd`
 (press enter it will open command promt)
 
-now use command in commnd promt :  `json-server --watch db.json`
+now use command in commnd promt :  `json-server --watch db.json` it will start the json server.
 
 example :
 E:\vue_app\usermanagementapp\db>`json-server --watch db.json`
 
- --- You Can use 2 seperate vscode Terminal also
+ --- You Can use seperate vscode Terminal also---
 
 ### Step-4 (Start server vue-application / Install Dependencies )
 
-in the IDE(vscode) run `npm install` in the file directory that is imported (this might will not work)
+in the IDE(vscode) run `npm install` in the file directory that is imported (this might will not work for some systems)
 
 if npm install didn't work {
-
 open power shell in global mode using powershell (i.e path seems like c:/users/admin) and give command
 `Set-ExecutionPolicy RemoteSigned-scope CurrentUser`
 then try
 npm install
-
 }
 
 after npm install finishes start the server use:
