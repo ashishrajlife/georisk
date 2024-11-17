@@ -6,7 +6,7 @@ This project is a Vue.js application that integrates Mapbox for rendering maps a
 Features Interactive Map with Mapbox Shape Drawing functionality GeoJSON data fetching and rendering Backend data storage using JSON Server Setup Instructions Prerequisites
 
 
-*** SAMPLE GEOJSON FORMAT IS IN THE PROJECT ROOT WITH FOLDER NAME ( SampleGeoData_TESTING )  ****
+ `*** SAMPLE GEOJSON FORMAT IS IN THE PROJECT ROOT WITH FOLDER NAME ( SampleGeoData_TESTING )  ****`
 
 -------- Ensure you have the following installed:
 
@@ -61,4 +61,4 @@ The app should be accessible at http://localhost:8080
 json server should be accessible at http://localhost:3000
 
 
-*** SAMPLE GEOJSON FORMAT IS IN THE PROJECT ROOT WITH FOLDER NAME ( SampleGeoData_TESTING )  ****
+`*** SAMPLE GEOJSON FORMAT IS IN THE PROJECT ROOT WITH FOLDER NAME ( SampleGeoData_TESTING )  ****`
