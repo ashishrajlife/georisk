@@ -1,0 +1,23 @@
+{
+  "user": [
+    {
+      "id": "4f90",
+      "name": "z",
+      "email": "z",
+      "password": "z"
+    },
+    {
+      "id": "d41d",
+      "name": "ppp",
+      "email": "ppp@gmail.com",
+      "password": "ppp"
+    },
+    {
+      "id": "8b5b",
+      "name": "Ashish raj",
+      "email": "raj@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "geodata": []
+}

@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.9629, 20.5937]
+      },
+      "properties": {
+        "name": "Location 1",
+        "description": "test location 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.209, 28.6139]
+      },
+      "properties": {
+        "name": "Bench_press_Point",
+        "description": "test location 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.8777, 19.076]
+      },
+      "properties": {
+        "name": "Location 3",
+        "description": " 3rd test location."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.3639, 22.5726]
+      },
+      "properties": {
+        "name": "Location 4",
+        "description": "Try biriyani here"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2707, 13.0827]
+      },
+      "properties": {
+        "name": "Location 5",
+        "description": "lets go to the park its great here"
+      }
+    }
+  ]
+}

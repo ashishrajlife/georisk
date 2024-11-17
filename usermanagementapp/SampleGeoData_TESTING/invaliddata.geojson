@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+     {      },
+      "properties": {
+        "name": "Chorbazar, Delhi",
+        "description": "This is the original point marker for Chorbazar, Delhi."
+      }
+    },
+
+  ]
+}

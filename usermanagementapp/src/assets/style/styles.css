@@ -1,0 +1,336 @@
+.footer-for-application {
+  background: linear-gradient(45deg, #ffdd57, #6c757d, #f8d347);
+  padding: 10px 0; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  animation: fadeIn 1.2s ease;
+  overflow: hidden;
+}
+
+.footer-for-application .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-for-application .footer-description {
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.footer-for-application .logos {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-for-application .logos img {
+  width: 24px; 
+  height: 24px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-for-application .logos img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home-container.footer {
+  flex-shrink: 0;
+  background: #dfaf46;
+  padding: 2px 0;  
+  text-align: center;
+  font-size: 0.9rem; 
+  color: #333;
+  box-shadow: none; 
+}
+.home-container.footer img {
+  margin-top: auto;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-container .app-name{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border: 2px solid white;
+  font-weight: 600;
+  padding: 5px 20px 10px;
+  border-radius: 15px;
+  color: yellow;
+  background: black;
+}
+
+/* .user-add-data-styles */
+
+.user-add-data-styles {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  background: black;
+}
+
+.user-add-data-styles .content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.user-add-data-styles .upload-container{
+  color: #e6e956;
+}
+
+.user-add-data-styles .add-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.user-add-data-styles .add-btn:hover {
+  background-color: #e6e956;
+}
+
+.user-add-data-styles .clear-btn {
+  margin-left: 15px;
+  background-color: #322a2b;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.user-add-data-styles .clear-btn:hover {
+  background-color: #e8384a;
+}
+
+.user-add-data-styles span {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+}
+
+.user-add-data-styles input[type="file"] {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* header for application --------- ///////////*/
+
+.app-header {
+    background: linear-gradient(45deg, #ffdd57, #6c757d, #f8d347);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.2s ease;
+  }
+.app-header  .nav-links {
+  display: flex;
+  gap: 30px;
+}
+.app-header   
+.nav-link {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.app-header  .nav-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+
+.app-header .nav-link:hover {
+  color: yellow;
+  transform: translateY(-2px);
+}
+
+.app-header.nav-link:hover::before {
+  left: 0;
+}
+
+.login-page  .login-card {
+  background: rgb(48, 46, 46);
+  padding: 2rem;
+  border: 1.5px solid yellow;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-page 
+.login-card h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-page
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.login-page
+.input-group img{
+height: 25px;
+position: absolute;
+right: 5px;
+top: 35px;
+cursor: pointer;
+}
+
+.login-page  .input-group label {
+  display: block;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0.3rem;
+}
+
+
+
+
+.login-page  .input-group input {
+  width: 100%;
+  padding: 0.2rem;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/*Login page styles----------------*/
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../images/space.png');
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login-page  button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0.8rem;
+  background-color: #6c5ce7;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.login-page
+button:hover {
+  background-color: #4b3cb1;
+}
+
+.login-page .login-link {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.login-page .login-link a {
+  color: #4b9cd3;
+  text-decoration: none;
+}
+
+.login-page.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Map view container styles -------------------------------- */
+
+.mapview-container-style {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.mapview-container-style  .measure-btn,
+.toggle-markers-btn,
+.undo-marker-btn,
+.redo-marker-btn{
+  font-size: 15px;
+  background-color: black;
+  color: yellow;
+  border: 2px solid;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(85, 81, 81, 0.8);
+  cursor: pointer; 
+  padding: 10px 24px;
+  width: 100%; 
+}
+
+.mapview-container-style .save-btn{
+  background: yellow;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px 24px;
+  box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.8);
+  position: relative;
+  top: 25px;
+  font-size: 15px;
+}
+.mapview-container-style .delete-data-btn{
+  z-index: 1001;
+  top: 30px;
+}
