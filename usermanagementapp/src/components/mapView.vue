@@ -9,7 +9,7 @@
     <button class="undo-marker-btn" @click="undoMarker">Remove Marker</button>
     <button class="redo-marker-btn" @click="redoMarker">Reapply Change</button>
     <button class="save-btn" @click="saveChanges">Save Changes</button> 
-    <button class="delete-data-btn save-btn" @click="clearData">Delete Data</button> 
+    <button class="delete-data-btn save-btn" @click="clearData">Clear Everything</button> 
   </div>
 
   <div v-if="showpopup" class="custom-popup">

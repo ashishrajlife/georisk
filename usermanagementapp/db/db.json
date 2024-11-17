@@ -17,6 +17,18 @@
       "name": "Ashish raj",
       "email": "raj@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "45ca",
+      "name": "test",
+      "email": "test@gmai.com",
+      "password": "1234"
+    },
+    {
+      "id": "a07f",
+      "name": "ashish",
+      "email": "ashish@gmail.com",
+      "password": "1234"
     }
   ],
   "geodata": []
