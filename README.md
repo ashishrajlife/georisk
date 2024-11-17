@@ -18,8 +18,8 @@ Clone the Repository
 
 ### Step-1
 
-git clone repository-url
-cd repository-folder
+`git clone repository-url`
+then `cd repository-folder`
 
 ### Step-2 (setup/install json server for backend )
 
