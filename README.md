@@ -10,11 +10,7 @@ Features Interactive Map with Mapbox Shape Drawing functionality GeoJSON data fe
 
 -------- Ensure you have the following installed:
 
-Node.js (v16+ recommended)
-Vue CLI
-JSON Server
-A Mapbox Access Token (Already integrated in the project)
-Clone the Repository
+Node.js (v16+ recommended), Vue CLI, JSON Server, A Mapbox Access Token (Already integrated in the project), git Repository link to be cloned 
 
 ### Step-1
 
