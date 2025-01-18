@@ -1,7 +1,7 @@
 
 ### Vue.js Map Application (Geo-Risk)
 
-This project is a Vue.js application that integrates Mapbox for rendering maps and allows users to draw shapes on the map. The application uses Axios for handling HTTP requests and JSON Server to fetch GeoJSON data.
+This project is a Vue.js application uses Mapbox for rendering maps and allows users to draw shapes on the map. The application uses Axios for handling HTTP requests and JSON Server to fetch GeoJSON data.
 
 Features Interactive Map with Mapbox Shape Drawing functionality GeoJSON data fetching and rendering Backend data storage using JSON Server Setup Instructions Prerequisites
 
